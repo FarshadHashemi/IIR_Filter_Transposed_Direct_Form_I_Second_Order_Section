@@ -28,9 +28,9 @@ Entity IIR_Filter_Transposed_Direct_Form_I_Second_Order_Section Is
         Output             : Out Signed(Length_Of_Output_Words-1 Downto 0)
     ) ;
     
-End IIR_Filter_Transposed_Direct_Form_I_Second_Order_Section;
+End IIR_Filter_Transposed_Direct_Form_I_Second_Order_Section ;
 
-Architecture Behavioral of IIR_Filter_Transposed_Direct_Form_I_Second_Order_Section Is
+Architecture Behavioral Of IIR_Filter_Transposed_Direct_Form_I_Second_Order_Section Is
 
     Signal Synchronous_Reset_Register        : STD_Logic                                                              := '0' ;
     Signal Clock_Enable_Register             : STD_Logic                                                              := '0' ;
